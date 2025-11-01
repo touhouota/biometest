@@ -1,0 +1,17 @@
+.yarn/*
+!.yarn/patches
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+
+.pnp.*
+dist/
+
+# GAS config files
+.clasp.json
+appsscript.json
+
+# Editor config files
+.vscode/
+.zed/
